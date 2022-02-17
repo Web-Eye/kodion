@@ -14,3 +14,20 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
+
+class Keyboard:
+
+    def __init__(self, default=None, heading=None, hidden=None):
+        self._default = default
+        self._heading = heading
+        self._hidden = hidden
+
+    def setDefault(self, default):
+        self._default = default
+
+    def setHeading(self, heading):
+        self._heading = heading
+
+    def setHiddenInput(self, hidden):
+        self._hidden = hidden
+
