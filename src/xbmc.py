@@ -31,3 +31,12 @@ class Keyboard:
     def setHiddenInput(self, hidden):
         self._hidden = hidden
 
+    def doModal(self):
+        pass
+
+    def isConfirmed(self):
+        return True
+
+    def getText(self):
+        return self._default
+
