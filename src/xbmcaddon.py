@@ -23,6 +23,9 @@ class Addon:
     def getSetting(self, name):
         return
 
+    def setSetting(self, name, value):
+        return
+
     def getLocalizedString(self, id):
         return 'dummy'
 
