@@ -15,6 +15,13 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
+def getScreenHeight():
+    return 1080
+
+
+def getScreenWidth():
+    return 1920
+
 class ListItem:
 
     def __init__(self, title):
@@ -28,4 +35,5 @@ class ListItem:
 
     def setInfo(self, type, infoLabels):
         print(f'listItem "{self.__title}": setInfo({type}, {infoLabels})')
+
 
