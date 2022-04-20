@@ -22,6 +22,7 @@ def getScreenHeight():
 def getScreenWidth():
     return 1920
 
+
 class ListItem:
 
     def __init__(self, title):
