@@ -29,3 +29,7 @@ class Addon:
     def getLocalizedString(self, id):
         return 'dummy'
 
+    def getAddonInfo(self, name):
+        return 'dummy'
+
+
