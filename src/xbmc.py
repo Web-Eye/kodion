@@ -40,3 +40,6 @@ class Keyboard:
     def getText(self):
         return self._default
 
+
+def executebuiltin(s):
+    print(s)
