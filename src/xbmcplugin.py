@@ -14,6 +14,7 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
+import urllib.parse
 
 SORT_METHOD_NONE = 0
 SORT_METHOD_DATE = 3
@@ -22,6 +23,7 @@ SORT_METHOD_TITLE = 9
 
 
 def addDirectoryItem(handle, url, listitem, isFolder):
+    url = urllib.parse.unquote(url)
     print(f'addDirectoryItem({handle}, {url}, {listitem}, {isFolder})')
 
 
