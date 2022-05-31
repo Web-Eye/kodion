@@ -31,8 +31,8 @@ class ListItem:
     def setArt(self, value):
         print(f'listItem "{self.__title}": setArt({value})')
 
-    def setProperty(self, property, value):
-        print(f'listItem "{self.__title}": setProperty({property}, {value})')
+    def setProperty(self, _property, value):
+        print(f'listItem "{self.__title}": setProperty({_property}, {value})')
 
     def setInfo(self, type, infoLabels):
         print(f'listItem "{self.__title}": setInfo({type}, {infoLabels})')
