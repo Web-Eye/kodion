@@ -37,4 +37,6 @@ class ListItem:
     def setInfo(self, type, infoLabels):
         print(f'listItem "{self.__title}": setInfo({type}, {infoLabels})')
 
+    def addContextMenuItems(self, contextMenu):
+        print(f'listItem "{self.__title}": addContextMenuItems({contextMenu})')
 
