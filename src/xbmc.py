@@ -15,6 +15,12 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
+LOGDEBUG = 1
+LOGINFO = 2
+LOGWARNING = 3
+LOGERROR = 4
+LOGFATAL = 5
+
 class Keyboard:
 
     def __init__(self, default=None, heading=None, hidden=None):
@@ -43,3 +49,12 @@ class Keyboard:
 
 def executebuiltin(s):
     print(s)
+
+
+def executeJSONRPC(s):
+    print(s)
+    return None
+
+
+def log(msg, level=LOGDEBUG):
+    print(f'{level}: {msg}')
