@@ -58,3 +58,7 @@ def executeJSONRPC(s):
 
 def log(msg, level=LOGDEBUG):
     print(f'{level}: {msg}')
+
+
+def Monitor():
+    return None

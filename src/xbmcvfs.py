@@ -15,7 +15,39 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
+def copy(strSource, strDestination):
+    pass
+
+def delete(file):
+    pass
+
+def exists(path):
+    pass
+
+def listdir(path):
+    pass
+
+def makeLegalFilename(filename):
+    pass
+
+def mkdir(path):
+    pass
+
+def mkdirs(path):
+    pass
+
+def rename(file, newFile):
+    pass
+
+def rmdir(path, force):
+    pass
+
 def translatePath(arg):
     print(f'translatePath({arg})')
     return arg
+
+def validatePath(path):
+    pass
+
+
 
