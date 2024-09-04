@@ -25,18 +25,18 @@ def getScreenWidth():
 
 class ListItem:
 
-    def __init__(self, title):
-        self.__title = title
+    def __init__(self, label, label2=None, path=None, offscreen=None):
+        self.__label = label
 
     def setArt(self, value):
-        print(f'listItem "{self.__title}": setArt({value})')
+        print(f'listItem "{self.__label}": setArt({value})')
 
     def setProperty(self, _property, value):
-        print(f'listItem "{self.__title}": setProperty({_property}, {value})')
+        print(f'listItem "{self.__label}": setProperty({_property}, {value})')
 
     def setInfo(self, type, infoLabels):
-        print(f'listItem "{self.__title}": setInfo({type}, {infoLabels})')
+        print(f'listItem "{self.__label}": setInfo({type}, {infoLabels})')
 
     def addContextMenuItems(self, contextMenu):
-        print(f'listItem "{self.__title}": addContextMenuItems({contextMenu})')
+        print(f'listItem "{self.__label}": addContextMenuItems({contextMenu})')
 
