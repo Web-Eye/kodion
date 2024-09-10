@@ -22,7 +22,6 @@ def getScreenHeight():
 def getScreenWidth():
     return 1920
 
-
 class ListItem:
 
     def __init__(self, label, label2=None, path=None, offscreen=None):
@@ -40,3 +39,8 @@ class ListItem:
     def addContextMenuItems(self, contextMenu):
         print(f'listItem "{self.__label}": addContextMenuItems({contextMenu})')
 
+class Dialog:
+
+    @staticmethod
+    def notification(heading, message, icon = None, time = 5000, sound = True):
+        print(f'notification({heading}, {message}, {icon}, {time}, {sound})')
