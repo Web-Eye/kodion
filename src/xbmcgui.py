@@ -42,5 +42,10 @@ class ListItem:
 class Dialog:
 
     @staticmethod
+    def yesno(heading, message, nolabel = None, yeslabel = None, autoclose = None):
+        print(f'yesno({heading}, {message}, {nolabel}, {yeslabel}, {autoclose})')
+        return True
+
+    @staticmethod
     def notification(heading, message, icon = None, time = 5000, sound = True):
         print(f'notification({heading}, {message}, {icon}, {time}, {sound})')
