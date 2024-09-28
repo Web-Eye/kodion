@@ -22,6 +22,15 @@ def getScreenHeight():
 def getScreenWidth():
     return 1920
 
+
+class Window:
+
+    def __init__(self, existingWindowId: int = -1) -> None:
+        pass
+
+    def setProperty(self, key: str, value: str) -> None:
+        pass
+
 class ListItem:
 
     def __init__(self, label, label2=None, path=None, offscreen=None):
