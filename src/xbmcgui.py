@@ -58,3 +58,10 @@ class Dialog:
     @staticmethod
     def notification(heading, message, icon = None, time = 5000, sound = True):
         print(f'notification({heading}, {message}, {icon}, {time}, {sound})')
+
+    @staticmethod
+    def select(self, heading: str, _list, autoclose: int = 0, preselect: int = -1,
+               useDetails: bool = False) -> int:
+
+        print(f'select({heading}, {_list}, {autoclose}, {preselect}, {useDetails})')
+        return 0
