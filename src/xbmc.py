@@ -62,3 +62,6 @@ def log(msg, level=LOGDEBUG):
 
 def Monitor():
     return None
+
+def getLocalizedString(id: int) -> str:
+    return ""
