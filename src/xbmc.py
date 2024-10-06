@@ -64,4 +64,7 @@ def Monitor():
     return None
 
 def getLocalizedString(id: int) -> str:
-    return ""
+    return ''
+
+def getRegion(id: str) -> str:
+    return ''
